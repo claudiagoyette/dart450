@@ -1,0 +1,31 @@
+
+body {
+  background-color: yellow;
+  font-family: Helvetica,sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+#button1{
+  position: absolute;
+  top: 322px;
+  left: 840px;
+}
+
+#button2{
+  position: absolute;
+  top: 322px;
+  left: 890px;
+}
+
+#title {
+  position: absolute;
+  top: 270px;
+  left: 705px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
