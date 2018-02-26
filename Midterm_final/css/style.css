@@ -7,6 +7,7 @@ body {
   background-color: white;
 }
 
+
 /*        INTRO        */
 /* intro page banner image*/
 .home{
@@ -32,6 +33,8 @@ body {
 /* button on first question page */
 .button1{
   position: absolute;
+  width: 100px;
+  height: 40px;
   top: 570px;
   left: 590px;
   background-color: white;
@@ -217,4 +220,65 @@ body {
   position: absolute;
   top: 230px;
   left: 155px;
+}
+
+/* the hastags that are appreasing when you hover your mouse
+on the page : "I want to show the world who I am " type*/
+#text1 {
+  position: absolute;
+  top: 350px;
+  left: 850px;
+}
+#text2 {
+  position: absolute;
+  top: 450px;
+  left: 170px;
+}
+#text3 {
+  position: absolute;
+  top: 500px;
+  left: 400px;
+}
+#text4 {
+  position: absolute;
+  top: 350px;
+  left: 600px;
+}
+#text5 {
+  position: absolute;
+  top: 450px;
+  left: 770px;
+}
+#text6 {
+  position: absolute;
+  top: 450px;
+  left: 570px;
+}
+#text7 {
+  position: absolute;
+  top: 650px;
+  left: 70px;
+}
+#text8 {
+  position: absolute;
+  top: 620px;
+  left: 500px;
+}
+#text9 {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+}
+#text10 {
+  position: absolute;
+  top: 550px;
+  left: 770px;
+}
+
+
+#endtext {
+  position: absolute;
+  top: 22222px;
+  left: 450px;
+  margin-bottom: 20px;
 }
