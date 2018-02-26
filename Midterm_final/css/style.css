@@ -275,10 +275,10 @@ on the page : "I want to show the world who I am " type*/
   left: 770px;
 }
 
-
+/* the bottom text when you scroll down
+on the page : "I don't want to feel alone" type */
 #endtext {
   position: absolute;
   top: 22222px;
   left: 450px;
-  margin-bottom: 20px;
 }
