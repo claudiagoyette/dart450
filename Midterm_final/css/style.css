@@ -203,3 +203,18 @@ body {
   color: black;
   border: 3px solid black;
 }
+
+
+/*        RESULTS PAGES        */
+/* styles for the type revealing texts */
+#type {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+#explanation {
+  position: absolute;
+  top: 230px;
+  left: 155px;
+}
