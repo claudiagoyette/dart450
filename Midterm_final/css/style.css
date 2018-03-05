@@ -238,6 +238,12 @@ body {
 
 }
 
+#eyesSmall {
+  position:fixed;
+  width: 50px;
+  height: auto;
+}
+
 /* the hastags that are appreasing when you hover your mouse on the page : "I want to show the world who I am " type*/
 #text1 {
   position: absolute;
@@ -305,7 +311,7 @@ body {
 /* the bottom text when you scroll down on the page : "I don't want to feel alone" type */
 #puppies {
   position: absolute;
-  top: 22222px;
+  top: 33333px;
   left: 0px;
   width: 1300px;
   height: auto;
