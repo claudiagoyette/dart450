@@ -3,56 +3,31 @@ $(document).ready(function () {
   /*** I tried putting animation in order with their number but the pages would only work
   when the code is placed like this ! */
 
+  //  ------  ANIMATION 1 ------
+  /* function that makes multiple set of eyes appear at random position on the page :
+  I want to know what everybody's doing" type */
 
-  //  var x = Math.floor(Math.random() * $(window).width());
-  //  var y = Math.floor(Math.random() * $(window).height());
-// set timeout
-//setTimeout(sneakPeak,3000);
-//$("#eyesSmall").hide();
-//function sneakPeak() {
-//  $("#eyesSmall").show();
-//}
+  window.setInterval(function(){
+    var img = $('<img>');
+    // all the attributes for the images
+    img.attr('src', 'images/eyes.png');
+    img.css("position", "absolute");
+    img.css("width", "80px");
+    img.css("z-index", "-1000");
+    // set the borders for the image to the window width and height
+    img.css("top", randomIntFromInterval(0, 600));
+    img.css("left", randomIntFromInterval(0, 1200));
+    // only make the animation on this selected page
+    img.appendTo('#showRandomEyes');
 
+    // set the interval of time before each image appear
+  }, 500);
 
-function initialize () {
-
-picture = document.getElementById ("eyesSmall");
-spaceW = window.height - picture.height;
-spaceH = window.width - picture.width;
-setInterval(move,500);
-console.log('hello');
-}
-
-function move () {
-picture.style.top = Math.round(math.random() * spaceW) + "px";
-picture.style.left = Math.round(math.random() * spaceH) + "px";
-}
-
-
-
-
-  //  ------  ANIMATION 4 ------
-  /* function that makes the image at the bottom of the page fade in slowly on the page :
-  "I don't want to feel alone" type */
-
-  // make the image opacity to 0 at first
-  $("#puppies").css("opacity",0);
-  // function : scrolling down the page to trigger the animation
-  $(window).scroll(function () {
-    // calculate window position and scroll tracking variables
-    var windowHeight = $(window).height();
-    var windowScrollPosTop = $(window).scrollTop();
-    var windowScrollPosBottom = windowHeight + windowScrollPosTop;
-    var objectOffset = $("#puppies").offset();
-    var objectOffsetTop = objectOffset.top;
-
-    // if the page has been scrolled far enough to reveal the image (start the animation)
-    if (windowScrollPosBottom > objectOffsetTop) {
-      $("#puppies").animate({"opacity":1},
-      6000);
-    }
-
-  });
+  // random position of the images
+  function randomIntFromInterval(min,max)
+  {
+    return Math.floor(Math.random()*(max-min+1)+min);
+  }
 
 
 
@@ -132,6 +107,32 @@ picture.style.left = Math.round(math.random() * spaceH) + "px";
   });
 
 
+
+  //  ------  ANIMATION 4 ------
+  /* function that makes the image at the bottom of the page fade in slowly on the page :
+  "I don't want to feel alone" type */
+
+  // make the image opacity to 0 at first
+  $("#puppies").css("opacity",0);
+  // function : scrolling down the page to trigger the animation
+  $(window).scroll(function () {
+    // calculate window position and scroll tracking variables
+    var windowHeight = $(window).height();
+    var windowScrollPosTop = $(window).scrollTop();
+    var windowScrollPosBottom = windowHeight + windowScrollPosTop;
+    var objectOffset = $("#puppies").offset();
+    var objectOffsetTop = objectOffset.top;
+
+    // if the page has been scrolled far enough to reveal the image (start the animation)
+    if (windowScrollPosBottom > objectOffsetTop) {
+      $("#puppies").animate({"opacity":1},
+      6000);
+    }
+
+  });
+
+
+  
 
   //  ------  ANIMATION 3 ------
   /* function that display the date/time appearing on the page:

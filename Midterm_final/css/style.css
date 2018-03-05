@@ -236,14 +236,6 @@ body {
   left: 155px;
 }
 
-}
-
-#eyesSmall {
-  position:fixed;
-  width: 50px;
-  height: auto;
-}
-
 /* the hastags that are appreasing when you hover your mouse on the page : "I want to show the world who I am " type*/
 #text1 {
   position: absolute;
