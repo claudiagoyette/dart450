@@ -1,0 +1,121 @@
+/*
+
+exercise 6 by Claudia Goyette
+
+*/
+
+body {
+font-family: Helvetica,sans-serif;
+color: black;
+font-size: 20px;
+text-align: center;
+font-weight: bold;
+}
+
+#Title1{
+  position: absolute;
+  top: 10px;
+  left: 550px;
+}
+
+#Title2 {
+  position: absolute;
+  top: 30px;
+  left: 590px;
+}
+
+#Title3 {
+  position: absolute;
+  top: 30px;
+  left: 500px;
+}
+
+#question {
+  position: absolute;
+  top: 250px;
+  left: 490px;
+}
+
+
+#cart {
+    position: relative;
+    width: 100px;
+    height: auto;
+}
+
+#hunger {
+    position: relative;
+    width: 100px;
+    height: auto;
+    top: -300px;
+    left: 10px;
+}
+
+#bike {
+    position: relative;
+    width: 100px;
+    height: auto;
+    top: -500px;
+    left: 90px;
+}
+
+#life {
+    position: relative;
+    width: 100px;
+    height: auto;
+    top: -200px;
+    left: 80px;
+}
+#lemon {
+    position: relative;
+    width: 100px;
+    height: auto;
+    top: -900px;
+    left: 0px;
+}
+
+#king {
+    position: relative;
+    width: 100px;
+    height: auto;
+    top: -1500px;
+    left: 70px;
+}
+
+#harry {
+    position: relative;
+    width: 100px;
+    height: auto;
+    top: -800px;
+    left: 20px;
+}
+
+#peterpan {
+    position: relative;
+    width: 100px;
+    height: auto;
+    top: -1200px;
+    left: 40px;
+}
+
+.button1 {
+  position: absolute;
+  top: 310px;
+  left: 450px;
+
+}
+.button2 {
+  position: absolute;
+  top: 310px;
+  left: 540px;
+}
+.button3 {
+  position: absolute;
+  top: 310px;
+  left: 630px;
+}
+.button4 {
+  position: absolute;
+  top: 310px;
+  left: 750px;
+}
