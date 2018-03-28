@@ -1,0 +1,147 @@
+/*
+
+exercise 6 by Claudia Goyette
+
+*/
+
+body {
+font-family: Helvetica,sans-serif;
+color: white;
+font-size: 20px;
+text-align: center;
+font-weight: bold;
+background-color: #9A001D;
+}
+
+#Title1{
+  position: absolute;
+  top: 10px;
+  left: 550px;
+}
+
+#Title2 {
+  position: absolute;
+  top: 30px;
+  left: 590px;
+}
+
+#Title3 {
+  position: absolute;
+  top: 40px;
+  left: 440px;
+}
+
+#question {
+  position: absolute;
+  top: 250px;
+  left: 480px;
+}
+
+#counter {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+}
+
+#timesup {
+  position: absolute;
+  top: 300px;
+  left: 220px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+#cart {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 350px;
+}
+
+#cartNotMoving {
+    position: absolute;
+    width: 40px;
+    height: auto;
+    top: 35px;
+    left:1150px
+}
+
+
+/* Book covers images */
+#hunger {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: -2200px;
+    left: 170px;
+}
+#bike {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: -1700px;
+    left: 500px;
+}
+#life {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: -900px;
+    left: 280px;
+}
+#lemon {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: -600px;
+    left: 60px;
+}
+#king {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: -3500px;
+    left: 900px;
+}
+#harry {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: -1200px;
+    left: 610px;
+}
+#peterpan {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: -2650px;
+    left: 860px;
+}
+
+/* Buttons on the first page */
+
+.button1 {
+  position: absolute;
+  top: 310px;
+  left: 450px;
+
+}
+.button2 {
+  position: absolute;
+  top: 310px;
+  left: 540px;
+}
+.button3 {
+  position: absolute;
+  top: 310px;
+  left: 630px;
+}
+.button4 {
+  position: absolute;
+  top: 310px;
+  left: 750px;
+}
