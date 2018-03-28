@@ -6,6 +6,8 @@ Exercise 7
 */
 
 $(document).ready(function () {
+
+
   // animate the bookcover images from the top of the page, in a set amount of time
   //Hunger Games
   $(function(){
@@ -36,9 +38,9 @@ $(document).ready(function () {
     $("#peterpan").animate({top:1000},10000)
   })
 
-  /* There is something wrong with my code, there is a gap between the mouse position and the
-  cart position, I will need help to fix it
-  */
+
+
+
 
   // function so the cart follows the mouse position
   $ (document).mousemove (function (e) {
@@ -51,11 +53,14 @@ $(document).ready(function () {
   });
 
 
+
+
+
 // set a counter for 2 minutes (the final version is not this short)
 // hide the times up message
  $('#timesup').hide();
  // create a counter for 2 minutes
-var counter = 10;
+var counter = 120;
 var updateInterval = 1000;
 var timer = setInterval(function () { 
    counter = counter - 1;
