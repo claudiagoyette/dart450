@@ -11,31 +11,31 @@ $(document).ready(function () {
   // animate the images from the top of the page, in a set amount of time
 
   $(function(){
-    $("#image1").animate({top:500},10000)
+    $("#image1").animate({top:1000},10000)
   })
 
   $(function(){
-    $("#image2").animate({top:500},10000)
+    $("#image2").animate({top:1000},10000)
   })
 
   $(function(){
-    $("#image3").animate({top:500},10000)
+    $("#image3").animate({top:1000},10000)
   })
 
   $(function(){
-    $("#image4").animate({top:500},10000)
+    $("#image4").animate({top:1000},10000)
   })
 
   $(function(){
-    $("#image5").animate({top:500},10000)
+    $("#image5").animate({top:1000},10000)
   })
 
   $(function(){
-    $("#image6").animate({top:500},10000)
+    $("#image6").animate({top:1000},10000)
   })
 
   $(function(){
-    $("#image7").animate({top:500},10000)
+    $("#image7").animate({top:1000},10000)
   })
 
 
