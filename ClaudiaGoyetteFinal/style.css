@@ -7,6 +7,27 @@ body {
   background-color: #FFD61A;
 }
 
+#dragme {
+ position: relative;
+ top: 378px;
+ left: 945px;
+  background-color: white;
+  z-index: 150px;
+}
+
+
+#droponme {
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  top: 378px;
+  left: 945px;
+  margin: 0 auto;
+  background-color: white;
+  z-index: -99;
+
+}
+
 #title1{
   position: absolute;
   top: 230px;
@@ -42,7 +63,7 @@ body {
 }
 
 .buttonStart1:hover {
-  background-color: #383CE1; /* blue */
+  background-color: #6bccf9; /* blue */
   color: white;
 }
 
@@ -58,7 +79,7 @@ body {
 }
 
 .buttonStart2:hover {
-  background-color: #383CE1; /* blue */
+  background-color: #6bccf9; /* blue */
   color: white;
 }
 
@@ -74,33 +95,17 @@ body {
 }
 
 .buttonNext:hover {
-  background-color: #383CE1; /* blue */
+  background-color: #6bccf9; /* blue */
   color: white;
 }
 
-
-.buttonPrevious {
-  position: absolute;
-  top: 570px;
-  left: 90px;
-  width: 90px;
-  height: 50px;
-  background-color: #FFD61A;
-  color: white;
-  border: 5px solid white;
-}
-
-.buttonPrevious:hover {
-  background-color: #383CE1; /* blue */
-  color: white;
-}
 
 
 
 
 /* IMAGES */
 #square {
-  background: #383CE1;
+  background: #6bccf9;
   height: 80px;
   width: 80px;
   position: absolute;
@@ -113,22 +118,59 @@ body {
   width: 440px;
   height: auto;
   top: 10px;
-  left:750px
+  left:750px;
 }
 
 #step0 {
   position: absolute;
-  width: 240px;
+  width: 300px;
   height: auto;
-  top: 240px;
-  left:50px
+  top: 140px;
+  left: 35px;
+  z-index: -80;
 }
 
 
 #step1 {
   position: absolute;
-  width: 240px;
+  width: 300px;
   height: auto;
-  top: 240px;
-  left:50px
+  top: 140px;
+  left: 35px;
+  z-index: -100;
+}
+
+#laststep {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  top: 140px;
+  left: 35px;
+  z-index: -100;
+}
+
+#mac {
+  position: absolute;,
+  width: 100px;
+  height: auto;
+  top: 50px;
+  left: 350px;
+  z-index: -100;
+}
+
+#folder {
+  position: absolute;,
+  width: 20px;
+  height: auto;
+  top: 370px;
+  left: 940px;
+  z-index: -90;
+}
+
+#pdf {
+  position: absolute;
+  width: 60px;
+  height: auto;
+  top: 100px;
+  left:550px;
 }

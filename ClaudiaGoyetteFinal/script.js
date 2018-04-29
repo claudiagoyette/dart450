@@ -1,4 +1,37 @@
 $(document).ready(function() {
+setTimeout('$("#step0").hide()',3600);
+
+  // Make the things you want to drag draggable
+  $('#pdf').draggable();
+
+  // Make the element you want to drop onto "droppable"
+  // And if you want to have something happen when it is dropped
+  // then add an event handler function for 'drop' like this
+  $('#droponme').droppable({
+    drop: handleDrop
+  });
+
+
+  $('#pdf').on('click',function() {
+  responsiveVoice.speak("You Solved a Puzzle!", "UK English Male", {rate: 0.5}, {volume: 1});
+});
+// handleDrop
+//
+// Called when the user drops something onto the droppable element
+function handleDrop(event,ui) {
+  // You can get access to the thing that was dropped via ui.draggable
+  // So we'll remove it from the page
+  ui.draggable.remove();
+
+
+}
+
+
+
+
+
+
+
 
 $(document).keydown(function(e)
 {
@@ -40,8 +73,8 @@ $('div').animate (
 })
 
 
-setTimeout('$("#step0").hide()',3600);
-console.log("image");
+
+
 
 //window.onload = function(){
   //    if (annyang) {
@@ -76,3 +109,22 @@ timer.html (convertSeconds(timeleft - counter));
 }
   setInterval (time,1000);
 }
+
+
+
+
+$(document).on('keypress',function () {
+
+    var $pdfFile = $('#pdf');
+    var x = Math.floor(Math.random() * $(window).width());
+    var y = Math.floor(Math.random() * $(window).height());
+
+    $pdfFile.addClass('pdfFile');
+
+    $('body').append($pdfFile);
+
+  });
+
+  setInterval(function () {
+    $('.pdfFile').first().remove();
+  },500);
