@@ -1,47 +1,64 @@
 $(document).ready(function() {
   // make the first image on the page "step 1" disappear so the second image is shown
-setTimeout('$("#step0").hide()',3600);
+  setTimeout('$("#step0").hide()',3600);
+  // make the first image on the page "step 2" disappear so the second image is shown
+  setTimeout('$("#step2").hide()',7000);
+  // make the first image on the page "step 3" disappear so the second image is shown
+  setTimeout('$("#step3").hide()',7000);
 
-
-window.onload = function(){
+$('#title5').hide();
+$('.buttonStart1').hide();
+  window.onload = function(){
     if (annyang) {
-         var commands = {
-            'Yes': function() {
-     responsiveVoice.speak("Thank you, you didn't have too. I need to finish my essay as soon as possible",
-     "US English Male", {
-     });
-      $('#teen').hide({
-      });
-      $('#title1').hide({
-      });
-      $('#title2').hide({
-      });
-      $('.buttonStart1').hide({
-      });
-      $('.buttonStart2').hide({
-      });
+      var commands = {
+        'Yes': function() {
+          responsiveVoice.speak("Thank you, you didn't have too. I need to finish my essay as soon as possible.I think you are the perfect candidate to help me.",
+          "US English Male", {
+          });
+          $('#teen').hide({
+          });
+          $('#title1').hide({
+          });
+          $('#title2').hide({
+          });
+          $('#title3').hide({
+          });
+          $('#title4').hide({
+          });
+          $('#title5').show({
+          });
+          $('.buttonStart1').show({
+          });
+        }
+      };
+
+      annyang.addCommands(commands);
+
+      annyang.start();
     }
-  };
+  }
 
-  annyang.addCommands(commands);
 
-  annyang.start();
-}
-}
 
+
+  // ***  STEP 3 PAGE ***
+  $(function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  } );
 
 
 
   // ***  LAST STEP PAGE ***
 
-    // Make the things you want to drag draggable
-    $('#pdf').draggable();
-    // Make the element you want to drop onto "droppable"
-    // And if you want to have something happen when it is dropped
-    // then add an event handler function for 'drop' like this
-    $('#droponFolder').droppable({
-      drop: handleDrop
-    });
+  // Make the things you want to drag draggable
+  $('#pdf').draggable();
+  // Make the element you want to drop onto "droppable"
+  // And if you want to have something happen when it is dropped
+  // then add an event handler function for 'drop' like this
+  $('#droponFolder').droppable({
+    drop: handleDrop
+  });
 
   // Called when the user drops something onto the droppable element
   function handleDrop(event,ui) {
@@ -55,7 +72,6 @@ window.onload = function(){
     $("#droponFolder").hide();
     $("#laststep").hide();
     $(".buttonNext").hide();
-
   }
 
 
@@ -84,88 +100,93 @@ window.onload = function(){
 
 
 
-// ***  FIRST STEP PAGE ***
+  // ***  FIRST STEP PAGE ***
 
-$(document).keydown(function(e)
-{
- var div = $("square");
-switch (e.which)
-{
-
-case 37 :
-$('div').animate (
-{
-  left:'+=30'
-});
-  break;
-
-  case 38 :
-  $('div').animate (
+  $(document).keydown(function(e)
+  {
+    var div = $("square");
+    switch (e.which)
     {
-    top:'+=30'
-  });
-    break;
 
-    case 39 :
-    $('div').animate (
-      {
-      left:'-=30'
-    });
-      break;
-
-      case 40 :
+      case 37 :
       $('div').animate (
         {
-        top:'-=30'
-      });
+          left:'+=30'
+        });
         break;
-}
 
-});
+        case 38 :
+        $('div').animate (
+          {
+            top:'+=30'
+          });
+          break;
 
+          case 39 :
+          $('div').animate (
+            {
+              left:'-=30'
+            });
+            break;
 
+            case 40 :
+            $('div').animate (
+              {
+                top:'-=30'
+              });
+              break;
+            }
 
-
-
-
-
-
-var counter = 0;
-var timeleft = 420;
-
-function convertSeconds (s) {
-  var min = floor(s / 60);
-  var sec = s% 60;
-  return nf (min,1) + ':' + nf (sec,2);
-}
-function setupTimer() {
-  var timer = select ('#timer');
-timer.html (convertSeconds(timeleft - counter));
-
-function time () {
-  counter ++;
-timer.html (convertSeconds(timeleft - counter));
-}
-  setInterval (time,1000);
-}
+          });
 
 
 
+          $('#teen').on('click',function(e) {
+           e.preventDefault();
+           responsiveVoice.speak("I need help, this semester is killing me", "US English Male", {rate: 1}, {volume: 1});
+          });
+          $('#step0').on('click',function(e) {
+           e.preventDefault();
+           responsiveVoice.speak("Thank you, you didn't have too", "US English Male", {rate: 1}, {volume: 1});
+          });
+          $('#step1').on('click',function(e) {
+          e.preventDefault();
+          responsiveVoice.speak("Arrange the words as you like and press next when it's done", "US English Male", {rate: 1}, {volume: 1});
+          });
+          $('#step2').on('click',function(e) {
+           e.preventDefault();
+           responsiveVoice.speak("Good job! I also need to find a title, can you do that ?", "US English Male", {rate: 1}, {volume: 1});
+         });
+         $('#step2_2').on('click',function(e) {
+          e.preventDefault();
+          responsiveVoice.speak("Arrange the words as you like and press next when it's done", "US English Male", {rate: 1}, {volume: 1});
+        });
+        $('#step3').on('click',function(e) {
+         e.preventDefault();
+         responsiveVoice.speak("You're good at this. Now can you help me correct my mistakes ?", "US English Male", {rate: 1}, {volume: 1});
+       });
+       $('#step3_2').on('click',function(e) {
+        e.preventDefault();
+        responsiveVoice.speak("Click on the words where you can see mistakes", "US English Male", {rate: 1}, {volume: 1});
+      });
 
-$(document).on('keypress',function () {
 
-    var $pdfFile = $('#pdf');
-    var x = Math.floor(Math.random() * $(window).width());
-    var y = Math.floor(Math.random() * $(window).height());
 
-    $pdfFile.addClass('pdfFile');
 
-    $('body').append($pdfFile);
+        });
 
-  });
 
-  setInterval(function () {
-    $('.pdfFile').first().remove();
-  },500);
 
-});
+        //$("div").blast({ search: "subliminal" }).mouseover(reveal);
+        //  $("div").blast({ search: "evil" }).mouseover(reveal);
+        //  $("div").blast({ search: "ψ(｀∇´)ψ" }).mouseover(reveal);
+        //  $("div").blast({ search: "don't" }).mouseover(reveal);
+        //  $("div").blast({ search: "never" }).mouseover(reveal);
+        //  $("div").blast({ search: "not" }).mouseover(reveal);
+        //  $("div").blast({ search: "muahahahahaha!!!!" }).mouseover(reveal);
+
+        //function reveal () {
+        //  $(this).animate({
+        //      color: 'red',
+        //  });
+        //}
