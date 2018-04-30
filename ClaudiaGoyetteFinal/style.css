@@ -16,7 +16,7 @@ body {
 }
 
 
-#droponme {
+#droponFolder {
   position: absolute;
   width: 60px;
   height: 45px;
@@ -27,80 +27,6 @@ body {
   z-index: -99;
 
 }
-
-#title1{
-  position: absolute;
-  top: 230px;
-  left: 100px;
-}
-
-#title2 {
-  position: absolute;
-  top: 290px;
-  left: 100px;
-}
-
-#timer {
-  position: absolute;
-  top: 40px;
-  left: 50px;
-  font-size: 22px;
-  color: white;
-  font-weight: bold;
-}
-
-
-
-.buttonStart1 {
-  position: absolute;
-  top: 370px;
-  left: 270px;
-  width: 110px;
-  height: 50px;
-  background-color: #FFD61A;
-  color: white;
-  border: 5px solid white;
-}
-
-.buttonStart1:hover {
-  background-color: #6bccf9; /* blue */
-  color: white;
-}
-
-.buttonStart2 {
-  position: absolute;
-  top: 370px;
-  left: 100px;
-  width: 110px;
-  height: 50px;
-  background-color: #FFD61A;
-  color: white;
-  border: 5px solid white;
-}
-
-.buttonStart2:hover {
-  background-color: #6bccf9; /* blue */
-  color: white;
-}
-
-.buttonNext {
-  position: absolute;
-  top: 570px;
-  left: 1110px;
-  width: 90px;
-  height: 50px;
-  background-color: #FFD61A;
-  color: white;
-  border: 5px solid white;
-}
-
-.buttonNext:hover {
-  background-color: #6bccf9; /* blue */
-  color: white;
-}
-
-
-
 
 
 /* IMAGES */
@@ -173,4 +99,81 @@ body {
   height: auto;
   top: 100px;
   left:550px;
+}
+
+
+
+
+
+.buttonStart1 {
+  position: absolute;
+  top: 370px;
+  left: 270px;
+  width: 110px;
+  height: 50px;
+  background-color: #FFD61A;
+  color: white;
+  border: 5px solid white;
+}
+
+.buttonStart1:hover {
+  background-color: #6bccf9; /* blue */
+  color: white;
+}
+
+.buttonStart2 {
+  position: absolute;
+  top: 370px;
+  left: 100px;
+  width: 110px;
+  height: 50px;
+  background-color: #FFD61A;
+  color: white;
+  border: 5px solid white;
+}
+
+.buttonStart2:hover {
+  background-color: #6bccf9; /* blue */
+  color: white;
+}
+
+.buttonNext {
+  position: absolute;
+  top: 570px;
+  left: 1110px;
+  width: 90px;
+  height: 50px;
+  background-color: #FFD61A;
+  color: white;
+  border: 5px solid white;
+}
+
+.buttonNext:hover {
+  background-color: #6bccf9; /* blue */
+  color: white;
+}
+
+
+
+
+
+#title1{
+  position: absolute;
+  top: 230px;
+  left: 100px;
+}
+
+#title2 {
+  position: absolute;
+  top: 290px;
+  left: 100px;
+}
+
+#timer {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
 }

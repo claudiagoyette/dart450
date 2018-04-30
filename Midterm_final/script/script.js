@@ -8,7 +8,7 @@ $(document).ready(function () {
   I want to know what everybody's doing" type */
 
   window.setInterval(function(){
-    var img = $('<img>');
+    var img = $('<body>');
     // all the attributes for the images
     img.attr('src', 'images/eyes.png');
     img.css("position", "absolute");
@@ -132,7 +132,7 @@ $(document).ready(function () {
   });
 
 
-  
+
 
   //  ------  ANIMATION 3 ------
   /* function that display the date/time appearing on the page:
