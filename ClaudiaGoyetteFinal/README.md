@@ -1,12 +1,12 @@
 Artist statement - Final project
 
-My concept
+My concept :
 I wanted to create a website that is very nice with you and compliments you. It’s sort of a commentary on social medias where people are desperate for likes and attention. On my website, you just need to complete simple tasks but you get very positive comments by the character. Indeed, it is a playful website where you help a student to finish his final paper. Throughout your evolution of the creation of the paper, the character is always by your side telling you how good you are and how well you are managing all this. I find it interesting to play with the concept of online presence and whether this person (character) can be called a real person, and if they can be considered as a “friend”. On social medias, people are looking for friends to compliment them, what if your friend is online, does it count as well?
 
-Implementation
+Implementation :
 I tried to make a character that you can speak to and that would respond so you would think he is really there for you. You need to interact with him a first time when you open your page, and he will respond! After that, you can still hear his voice but only when you click on him. Plus, the speech bubbles are timed to change by themselves so it looks like he’s talking. To make this happen, I used Annyang for the speech recognition and the responsive voice function to make my character talk. However, something I would change would be the tone of his voice because right now, the character has a very low pitch voice and he looks like a young person.
 
 The tasks you need to do are pretty simple. For example, on one page you will need to find a title to the essay. To do so, you simply need to reorganize the list of word you have to create a sentence. On another page, you have to check for mistakes and using blast.js I made the text changing color to blue so they are easily visible. I also used the drag and drop function on the last page where the student needs to hand in his essay. My coding works, but unfortunately, I would have want to avoid using button to skip page and just the fact that you completed the task would bring you on the next page, but due to time constraint (which is totally my fault) I preferred not to go into that and risk to not be able to finish the site.  
 
-Aesthetic
+Aesthetic : 
 The visual of the website is a bold, cartoonish aesthetic. I went for bright colors all in the shades of blue and yellow (to match my character’s outfit). I thought it would be a good idea to use a computer as a semi-background of most of my pages to make the tasks even more realistic and playful. To make it as realistic as I could, I also embedded sound when you are done with the last task which is to drop your file in the class shares folder, it actually make the same sound as a mac would.
