@@ -1,16 +1,16 @@
 body {
-  /* main visuals */
-  /* the font */
-  font-family: Helvetica,sans-serif;
-  /*color of text */
-  color: white;
-  /*the font size and weight */
-  font-size: 50px;
-  font-weight: bold;
-  /*where on the page */
-  text-align: center;
-  /* background color of the website */
-  background-color: #FFD61A;
+/* main visuals */
+/* the font */
+font-family: Helvetica,sans-serif;
+/*color of text */
+color: white;
+/*the font size and weight */
+font-size: 50px;
+font-weight: bold;
+/*where on the page */
+text-align: center;
+/* background color of the website */
+background-color: #FFD61A;
 }
 
 
@@ -21,340 +21,315 @@ is always positioned at the same place  */
 
 /* main page caracter */
 #teen {
-  position: absolute;
-  width: 440px;
-  height: auto;
-  top: 10px;
-  left:750px;
+position: absolute;
+width: 440px;
+height: auto;
+top: 10px;
+left:750px;
 }
 /* page 1 */
 #step1 {
-  position: absolute;
-  width: 300px;
-  height: auto;
-  top: 140px;
-  left: 35px;
-  z-index: -80;
+position: absolute;
+width: 300px;
+height: auto;
+top: 140px;
+left: 35px;
+z-index: -80;
 }
-/* page one, second image */
-#step1_2 {
-  position: absolute;
-  width: 300px;
-  height: auto;
-  top: 140px;
-  left: 35px;
-  z-index: -100;
-}
+
 /* page two */
 #step2 {
-  position: absolute;
-  width: 300px;
-  height: auto;
-  top: 140px;
-  left: 35px;
-  z-index: -100;
+position: absolute;
+width: 300px;
+height: auto;
+top: 140px;
+left: 35px;
+z-index: -100;
 }
 /* page two, second image */
 #step2_2 {
-  position: absolute;
-  width: 300px;
-  height: auto;
-  top: 140px;
-  left: 35px;
-  z-index: -101;
+position: absolute;
+width: 300px;
+height: auto;
+top: 140px;
+left: 35px;
+z-index: -101;
 }
 /* page three */
 #step3 {
-  position: absolute;
-  width: 300px;
-  height: auto;
-  top: 140px;
-  left: 35px;
-  z-index: -100;
+position: absolute;
+width: 300px;
+height: auto;
+top: 140px;
+left: 35px;
+z-index: -100;
 }
 /* page three, second image */
 #step3_2 {
-  position: absolute;
-  width: 300px;
-  height: auto;
-  top: 140px;
-  left: 35px;
-  z-index: -101;
+position: absolute;
+width: 300px;
+height: auto;
+top: 140px;
+left: 35px;
+z-index: -101;
 }
 /* last page */
 #laststep {
-  position: absolute;
-  width: 300px;
-  height: auto;
-  top: 140px;
-  left: 35px;
-  z-index: -100;
+position: absolute;
+width: 300px;
+height: auto;
+top: 140px;
+left: 35px;
+z-index: -100;
 }
 /* last page, second image */
 #laststep_2 {
-  position: absolute;
-  width: 300px;
-  height: auto;
-  top: 140px;
-  left: 35px;
-  z-index: -101;
+position: absolute;
+width: 300px;
+height: auto;
+top: 140px;
+left: 35px;
+z-index: -101;
 }
 
 /* last page, ending image */
 #ending {
-  position: absolute;
-  width: 850px;
-  height: auto;
-  top: 40px;
-  left: 145px;
-  z-index: -101;
+position: absolute;
+width: 850px;
+height: auto;
+top: 40px;
+left: 145px;
+z-index: -101;
 }
 
 /* accessories images section */
 /* The mac image with white screen */
 #mac {
-  position: absolute;,
-  /* its size */
-  width: 100px;
-  height: auto;
-  /* its position on the page */
-  top: 50px;
-  left: 350px;
-  /* its depth */
-  z-index: -100;
+position: absolute;,
+/* its size */
+width: 100px;
+height: auto;
+/* its position on the page */
+top: 50px;
+left: 350px;
+/* its depth */
+z-index: -100;
 }
 
 /* The mac image but with the microsoft word background */
 #word {
-  position: absolute;,
-  /* its size */
-  width: 100px;
-  height: auto;
-  /* its position on the page */
-  top: 20px;
-  left: 350px;
-  /* its depth */
-  z-index: -100;
+position: absolute;,
+/* its size */
+width: 100px;
+height: auto;
+/* its position on the page */
+top: 20px;
+left: 350px;
+/* its depth */
+z-index: -100;
 }
 
 /* The blue folder "class shares" */
 #folder {
-  position: absolute;,
-  /* its size */
-  width: 20px;
-  height: auto;
-  /* its position on the page */
-  top: 370px;
-  left: 940px;
-  /* its depth */
-  z-index: -90;
+position: absolute;,
+/* its size */
+width: 20px;
+height: auto;
+/* its position on the page */
+top: 370px;
+left: 940px;
+/* its depth */
+z-index: -90;
 }
 
 /* The pdf file that is dropped in the folder */
 #pdf {
-  position: absolute;
-  /* its size */
-  width: 60px;
-  height: auto;
-  /* its initial position on the page */
-  top: 200px;
-  left:550px;
+position: absolute;
+/* its size */
+width: 60px;
+height: auto;
+/* its initial position on the page */
+top: 200px;
+left:550px;
 }
 
 
 /* The pdf file that is draggable */
 #dragme {
-  position: relative;
-  /* its position on the page */
-  top: 378px;
-  left: 945px;
-  /* its color */
-  background-color: white;
-  /* Its depth */
-  z-index: 150px;
+position: relative;
+/* its position on the page */
+top: 378px;
+left: 945px;
+/* its color */
+background-color: white;
+/* Its depth */
+z-index: 150px;
 }
 
 /* The zone that receive the pdf */
 #droponFolder {
-  position: absolute;
-  /* its size */
-  width: 60px;
-  height: 45px;
-  /* its position on the page */
-  top: 378px;
-  left: 945px;
-  margin: 0 auto;
-  /* its color */
-  background-color: white;
-  /* its depth*/
-  z-index: -99;
+position: absolute;
+/* its size */
+width: 60px;
+height: 45px;
+/* its position on the page */
+top: 378px;
+left: 945px;
+margin: 0 auto;
+/* its color */
+background-color: white;
+/* its depth*/
+z-index: -99;
 }
 
-/* The square */
-#square {
-  background: #6bccf9;
-  height: 80px;
-  width: 80px;
-  position: absolute;
-  top:50%;
-  left: 50%;
+/* The rectangle used to reveal the subject */
+#rectangle {
+background: #6bccf9;
+/* Its size */
+height: 80px;
+width: 200px;
+/* Its position */
+position: absolute;
+top:50%;
+left: 50%;
 }
 
 
 /* ----- BUTTONS ----- */
 /* button on the first page, but second menu. It's different from the others because it gets called it a function */
 .buttonStart1 {
-  position: absolute;
-  /* its position on the page */
-  top: 300px;
-  left: 570px;
-  /* its size */
-  width: 110px;
-  height: 50px;
-  /* its color */
-  background-color: #FFD61A;
-  /* its text color */
-  color: white;
-  /* its border size and color */
-  border: 5px solid white;
-  /* its depth */
-  z-index: -100px;
+position: absolute;
+/* its position on the page */
+top: 300px;
+left: 570px;
+/* its size */
+width: 110px;
+height: 50px;
+/* its color */
+background-color: #FFD61A;
+/* its text color */
+color: white;
+/* its border size and color */
+border: 5px solid white;
+/* its depth */
+z-index: -100px;
 }
 /* different visuel when hover on it */
 .buttonStart1:hover {
-  /*the blue color */
-  background-color: #6bccf9;
-  /* text color */
-  color: white;
+/*the blue color */
+background-color: #6bccf9;
+/* text color */
+color: white;
 }
 
 /* Buttons that are use throught the website to change pages */
 #buttonNext {
-  position: absolute;
-  /* Their position */
-  top: 570px;
-  left: 1110px;
-  /* Their size */
-  width: 90px;
-  height: 50px;
-  /* Their color */
-  background-color: #FFD61A;
-  /* Their text color */
-  color: white;
-  /* Their border size and color */
-  border: 5px solid white;
+position: absolute;
+/* Their position */
+top: 570px;
+left: 1110px;
+/* Their size */
+width: 90px;
+height: 50px;
+/* Their color */
+background-color: #FFD61A;
+/* Their text color */
+color: white;
+/* Their border size and color */
+border: 5px solid white;
 }
 /* different visuel when hover on it */
 #buttonNext:hover {
-  /*the blue color */
-  background-color: #6bccf9;
-  /* text color */
-  color: white;
+/*the blue color */
+background-color: #6bccf9;
+/* text color */
+color: white;
 }
 
 
 /* ----- TITLES and TEXT ------ */
 /* First title on the fisrt page and it's position on the screen : "Help this student survive "*/
 #title1{
-  position: absolute;
-  top: 230px;
-  left: 100px;
+position: absolute;
+top: 230px;
+left: 100px;
 }
 /* Second title on the fisrt page and it's position on the screen "the end of the semester ! "*/
 #title2 {
-  position: absolute;
-  top: 290px;
-  left: 100px;
+position: absolute;
+top: 290px;
+left: 100px;
 }
 /* Third title on the fisrt page and it's position on the screen "Say "Yes" to start "*/
 #title3 {
-  position: absolute;
-  top: 360px;
-  left: 100px;
-  /* different size */
-  font-size: 30px;
+position: absolute;
+top: 360px;
+left: 100px;
+/* different size */
+font-size: 30px;
 }
 /* title on the fisrt page and it's position on the screen "Click on the teenager anytime to receive tasks and encouragements "*/
 #title4 {
-  position: absolute;
-  top: 410px;
-  left: 100px;
-  /* different size */
-  font-size: 20px;
+position: absolute;
+top: 410px;
+left: 100px;
+/* different size */
+font-size: 20px;
 }
 /* title on the fisrt page (second menu) and it's position on the screen "Thank you, you didn't have too. I need to finish my essay as soon as possible. I think you are the perfect candidate to help me "*/
 #title5 {
+position: absolute;
+top: 250px;
+left: 40px;
+/* different size */
+font-size: 20px;
+}
+
+/* the subject of the paper */
+#subject {
   position: absolute;
-  top: 250px;
-  left: 40px;
-  /* different size */
-  font-size: 20px;
+  /* different font size */
+  font-size: 30px;
+  /* its position on the page */
+  top: 140px;
+  left: 835px;
+/* its depth, making sure its over the rectangle */
+  z-index: 100;
+  /* its color */
+  color: #FFD61A;
+}
+
+/* paragraph of the text used on the step 3 page */
+.paragraph{
+/* different font size */
+font-size:20px;
+position: absolute;
+/* modify the position */
+ right: 130px;
+ top:150px;
 }
 
 /* ----- Objects section ----- */
 /* those are the proprieties of the  8 words on the page here the user needs to find a title*/
 #sortable {
-  /* no bullet point (because it's a list) */
-  list-style-type: none;
-  /* size of the 8 resctangles together*/
-  width: 750px;
-  position: absolute;
-  /* The position on the page */
-  left: 535px;
-  top: 305px;
+/* no bullet point (because it's a list) */
+list-style-type: none;
+/* size of the 8 resctangles together*/
+width: 750px;
+position: absolute;
+/* The position on the page */
+left: 535px;
+top: 305px;
 }
 /* those are the proprieties of one rectangle */
 #sortable li {
 /* align from left to right */
-  float: left;
-  /* the size of the rectangle */
-  width: 80px;
-  height: 30px;
-  /* font size, color and location in the rectangle */
-  font-size: 20px;
-  color: black;
-  text-align: center;
+float: left;
+/* the size of the rectangle */
+width: 80px;
+height: 30px;
+/* font size, color and location in the rectangle */
+font-size: 20px;
+color: black;
+text-align: center;
 }
-
-/*
-#line1 {
-  position: absolute;
-  top: 150px;
-  left: 400px;
-  font-size: 20px;
-}
-
-#line2 {
-  position: absolute;
-  top: 200px;
-  left: 400px;
-  font-size: 20px;
-}
-
-#line3 {
-  position: absolute;
-  top: 250px;
-  left: 400px;
-  font-size: 20px;
-}
-
-#line4 {
-  position: absolute;
-  top: 300px;
-  left: 400px;
-  font-size: 20px;
-}
-
-#line5 {
-  position: absolute;
-  top: 350px;
-  left: 400px;
-  font-size: 20px;
-}
-
-#line6 {
-  position: absolute;
-  top: 400px;
-  left: 400px;
-  font-size: 20px;
-}      */

@@ -2,7 +2,7 @@
 
 
 Final by Claudia Goyette
-
+Step 1 page : find the subject of the paper the character needs to write by moving the rectangle with the arrow keys
 
 ************************************************************************ -->
 
@@ -12,37 +12,39 @@ Final by Claudia Goyette
 
 <head>
 
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-  <title>STEP 1</title>
+<title>STEP 1</title>
 
-  <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
 
-  <!-- Include jQuery via the CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Include responsivevoice -->
-  <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
-  <!-- Include jqueryui -->
-  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-  <!-- Include annyang -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
- <!-- Include blast.js file -->
-  <script src="jquery.blast.min.js" content="text/javascript"></script>
-  <!-- Include the script file -->
-  <script src="script.js"></script>
+<!-- Include jQuery via the CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Include responsivevoice -->
+<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+<!-- Include jqueryui -->
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<!-- Include annyang -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
+<!-- Include blast.js file -->
+<script src="jquery.blast.min.js" content="text/javascript"></script>
+<!-- Include the script file -->
+<script src="script.js"></script>
 
 </head>
 
 
 <body>
 
-<!-- question  -->
-<div id = "square"></div>
+<!-- The square used to reveal the subject -->
+<div id = "rectangle"></div>
+<!-- The subject itself, in a h1 and not in a div so it does move with the rectangle -->
+<h1 id= "subject"> Philosophy </h1>
+<!-- Character image 1 -->
 <img id = "step1" src="images/step1.png">
-<img id = "step1_2" src="images/step0.png">
+<!-- The button to go to the next page -->
 <button id = "buttonNext" type="buttonNext"> <a href="step2.html">NEXT</a></button>
-<!-- <audio controls src = "/music/happy.mp3" > -->
 
 
 
